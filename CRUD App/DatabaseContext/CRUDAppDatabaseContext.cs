@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CRUD_App.DatabaseContext
+namespace CRUDApp.DatabaseContext
 {
     public class CRUDAppDatabaseContext : DbContext
     {

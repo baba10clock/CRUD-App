@@ -1,4 +1,4 @@
-using CRUD_App.DatabaseContext;
+using CRUDApp.DatabaseContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
