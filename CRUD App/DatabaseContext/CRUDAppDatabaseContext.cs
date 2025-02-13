@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CRUDApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUDApp.DatabaseContext
 {
@@ -6,5 +7,7 @@ namespace CRUDApp.DatabaseContext
     {
         public CRUDAppDatabaseContext(DbContextOptions<CRUDAppDatabaseContext> options)
             : base(options) { }
+
+        public DbSet<Product> Products => Set<Product>();
     }
 }
